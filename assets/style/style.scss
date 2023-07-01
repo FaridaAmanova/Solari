@@ -1,0 +1,32 @@
+@import './variable';
+@import './reset';
+
+header {
+    color: $--white;
+
+    .top-header {
+        background-color: $--green;
+        padding: 15px 0;
+
+        .icon-box {
+            i {
+                color: $--white;
+            }
+        }
+    }
+
+    .bottom-header {
+        padding: 10px 0;
+
+        nav {
+            a {
+                color: $--black;
+            }
+        }
+
+        i {
+            color: $--green;
+        }
+
+    }
+}
